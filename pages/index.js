@@ -14,7 +14,7 @@ export default function Home() {
       <main>
         <Header title="Welcome to the internet!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Get started with some solid stretching and get to the coding <code>Have at it</code>
         </p>
       </main>
 
