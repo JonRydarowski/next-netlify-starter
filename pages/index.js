@@ -19,5 +19,7 @@ export default function Home() {
 
       <Footer />
     </div>
+    <script data-jsd-embedded data-key="bca31543-214d-40ea-84ec-28764127c22d" data-base-url="https://jsd-widget.atlassian.com" src="https://jsd-widget.atlassian.com/assets/embed.js">
+    </script>
   )
 }
