@@ -9,12 +9,14 @@ export default function Home() {
         <title>Test Me Test Me 1,2,3</title>
         <link rel="icon" href="/favicon.ico" />
     <script data-jsd-embedded data-key="bca31543-214d-40ea-84ec-28764127c22d" data-base-url="https://jsd-widget.atlassian.com" src="https://jsd-widget.atlassian.com/assets/embed.js"></script>
+    <script type="text/javascript" src="https://dsdsupport.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-dtzt95/b/3/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?jsI18nTransformer=migrated&locale=en-US&collectorId=04a58756"></script>
       </Head>
 
       <main>
         <Header title="Welcome to the internet!" />
         <p className="description">
-          Get started with some solid stretching and get to the coding <code>Have at it</code>
+          Stretch and get started today </p>
+   <p className='description"> <code> Have at it</code>
         </p>
       </main>
 
