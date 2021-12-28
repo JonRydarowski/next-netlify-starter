@@ -16,8 +16,6 @@ export default function Home() {
         <Header title="Welcome to the internet!" />
         <p className="description">
           Stretch and get started today </p>
-   <p className='description"> <code> Have at it</code>
-        </p>
       </main>
 
       <Footer />
