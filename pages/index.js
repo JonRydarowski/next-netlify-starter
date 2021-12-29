@@ -16,6 +16,7 @@ export default function Home() {
         <Header title="Welcome to the internet!" />
         <p className="description">
           Stretch and get started today </p>
+    <script src="https://jsp8g2gvqw36.statuspage.io/embed/script.js"></script>
       </main>
 
       <Footer />
