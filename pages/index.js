@@ -19,6 +19,30 @@ export default function Home() {
     <script src="https://jsp8g2gvqw36.statuspage.io/embed/script.js"></script>
       </main>
       <Footer />
+    <script type="text/javascript">
+    var spartezSupportChat = {
+        portal: 1,
+        cloud: {
+            jiraId: 'ef37f3ce-01a1-3f37-b48e-782a3beab8d3',
+            jiraUrl: 'https://dsdsupport.atlassian.net',
+            urls: {
+                rest: 'https://chat-api.spartez-software.com',
+                ws: 'https://chat-ws.spartez-software.com'
+            },
+        }
+        //meta: [ // optional, custom metadata to store in the issue created from conversation.
+        //    { render: true, name: "Value Name 1", value: val1 }, // "render" values will be displayed in the chat dashboard
+        //    { render: false, name: "Value Name 2", value: val2 },
+        //],
+        // delay: 100, // delay between page load and chat load in milliseconds
+        // container: 'spartez-support-chat-container', // ID of the page element that will be replaced by chat
+        // iconClass: '', // additional class added to the chat icon
+        // chatClass: '', // additional class added to the chat widget
+        // locale: 'en-us' // force a specified locale for displaying texts to the user
+                           // instead of detecting it from the browser
+    }
+</script>
+<script type="text/javascript" src="https://chat-api.spartez-software.com/chat.js"></script>
     </div>
   )
 }
