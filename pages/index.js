@@ -18,6 +18,9 @@ export default function Home() {
           Stretch and get started today </p>
     <script src="https://jsp8g2gvqw36.statuspage.io/embed/script.js"></script>
       </main>
+    <body>
+    <p> Welcome home </p>
+    </body>
       <Footer />
   
     </div>
