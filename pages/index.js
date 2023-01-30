@@ -38,7 +38,6 @@ export default function Home() {
 </form>   
     <script src="https://jsp8g2gvqw36.statuspage.io/embed/script.js"></script>
       </main>
-    <body>
     <p> Welcome home </p>
     </body>
       <Footer />
