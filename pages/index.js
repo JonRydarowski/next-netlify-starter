@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         <Header title="Welcome to the internet!" />
         <p className="description">
-          Stretch and get started today </p>
+          Stretch and get started today! It's a great time to get going. </p>
     <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
@@ -35,13 +35,13 @@ export default function Home() {
   <p>
     <button type="submit">Send</button>
   </p>
-</form>   
+</form>
     <script src="https://jsp8g2gvqw36.statuspage.io/embed/script.js"></script>
       </main>
     <p> Welcome home </p>
     </body>
       <Footer />
-  
+
     </div>
   )
 }
