@@ -13,7 +13,7 @@ export default function Home() {
     </Head>
     <body>
       <main>
-        <Header title="Welcome - This is a testing ground and info repo for me, Jon." />
+        <Header title="Welcome - This is a testing and learning ground and info repo for me, Jon." />
         <p className="description">
           Stretch and get started today! It's a great time to get going. </p>
     <form name="contact" method="POST" data-netlify="true">
