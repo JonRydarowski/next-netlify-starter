@@ -13,10 +13,11 @@ export default function Home() {
     </Head>
     <body>
       <main>
-        <Header title="Welcome to the internet!" />
+        <Header title="Welcome - This is a testing ground and info repo for me, Jon." />
         <p className="description">
           Stretch and get started today! It's a great time to get going. </p>
     <form name="contact" method="POST" data-netlify="true">
+    <p className="prom"> Pass along some info and we'll read it. </p>
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
@@ -30,15 +31,15 @@ export default function Home() {
     </select></label>
   </p>
   <p>
-    <label>Message: <textarea name="message"></textarea></label>
+    <label>Special Message: <textarea name="message"></textarea></label>
   </p>
   <p>
-    <button type="submit">Send</button>
+    <button type="submit">Send to Jon</button>
   </p>
 </form>
     <script src="https://jsp8g2gvqw36.statuspage.io/embed/script.js"></script>
       </main>
-    <p> Welcome home </p>
+    <p> Welcome home you crazy animal.</p>
     </body>
       <Footer />
 
