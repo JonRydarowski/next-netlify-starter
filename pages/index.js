@@ -18,7 +18,7 @@ export default function Home() {
           Stretch and get started today! It's a great time to get going. </p>
     <form name="Contact" method="POST" data-netlify="true">
     <p className="prom"> Pass along some info and we'll read it. </p>
-    <input type="hidden" name="form-name" value="contact-me" />
+    <input type="hidden" name="form-name" value="Contact" />
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
