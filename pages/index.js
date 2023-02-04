@@ -16,7 +16,7 @@ export default function Home() {
         <Header title="Welcome Frank - Nothing to see here." />
         <p className="description">
           Stretch and get started today! It's a great time to get going. </p>
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="Contact" method="POST" data-netlify="true">
     <p className="prom"> Pass along some info and we'll read it. </p>
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
