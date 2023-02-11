@@ -20,7 +20,10 @@ export default function Home() {
     </Head>
     <body>
       <main>
-        <Header title="Welcome Frank - Nothing to see here." />
+      <div class="container-fluid">
+      <Header title="Welcome Frank - Nothing to see here." />
+      <p>Pretent that this is important copy that we want to make sure is captured in one way or the other about this that and the other.</p>
+</div>
         <p className="description">
           Stretch and get started today! It's a great time to get going. </p>
           <div class="row text-white text-center pb-3">
