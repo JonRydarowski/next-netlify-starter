@@ -64,7 +64,6 @@ export default function Home() {
     <button type="submit">Send it homeboy</button>
   </p>
 </form>
-<hr>  </hr>
     <script src="https://jsp8g2gvqw36.statuspage.io/embed/script.js"></script>
       </main>
     <p> Welcome home you crazy animal.</p>
