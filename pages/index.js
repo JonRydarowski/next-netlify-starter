@@ -19,35 +19,28 @@ export default function Home() {
     <script type="text/javascript" src="https://dsdsupport.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-dtzt95/b/3/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?jsI18nTransformer=migrated&locale=en-US&collectorId=04a58756"></script>
     </Head>
     <body>
-    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
-  <div class="navbar-nav-scroll">
-    <ul class="navbar-nav bd-navbar-nav flex-row">
-      <li class="nav-item">
-        <a class="nav-link" href="/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <a class="navbar-brand" href="#">Navbar w/ text</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="/docs/4.6/getting-started/introduction/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Documentation</a>
+        <a class="nav-link" href="#">Features</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/docs/4.6/examples/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Examples</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://icons.getbootstrap.com/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Icons');" target="_blank" rel="noopener">Icons</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://themes.getbootstrap.com/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Themes');" target="_blank" rel="noopener">Themes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://expo.getbootstrap.com/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Expo');" target="_blank" rel="noopener">Expo</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://blog.getbootstrap.com/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Blog');" target="_blank" rel="noopener">Blog</a>
+        <a class="nav-link" href="#">Pricing</a>
       </li>
     </ul>
+    <span class="navbar-text">
+      Navbar text with an inline element
+    </span>
   </div>
-
-  <a class="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="/docs/4.6/getting-started/download/">Download</a>
-</header>
+</nav>
       <main>
           <div class="container">
   <div class="row text-white text-left pb-3">
