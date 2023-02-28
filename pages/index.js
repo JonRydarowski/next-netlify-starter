@@ -5,7 +5,7 @@ import Footer from '@components/Footer'
 export default function Home() {
   return (
     <div className="container">
-      <head>
+      <Head>
         <title>Welcome home scott</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -17,12 +17,12 @@ export default function Home() {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <script data-jsd-embedded data-key="bca31543-214d-40ea-84ec-28764127c22d" data-base-url="https://jsd-widget.atlassian.com" src="https://jsd-widget.atlassian.com/assets/embed.js"></script>
     <script type="text/javascript" src="https://dsdsupport.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-dtzt95/b/3/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?jsI18nTransformer=migrated&locale=en-US&collectorId=04a58756"></script>
-    </head>
+    </Head>
     <body>
       <div class="skippy overflow-hidden">
         <div class="container-xl"></div>
       </div>
-      <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+      <nav class="navbar navbar-light">
         <a class="navbar-brand" href="#">Karate</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
