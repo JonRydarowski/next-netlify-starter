@@ -20,23 +20,17 @@ export default function Home() {
     </Head>
     <body>
       <main>
-      <div class="container-fluid">
-      <Header title="Welcome Frank! Nothing to see here. Please send your best to Rose" />
-      <p>Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?
+          <div class="container">
+  <div class="row text-white text-left pb-3">
+    <div class="col bg-dark pt-3">
+    <Header title="Welcome Frank! Nothing to see here. Please send your best to Rose" />
+        <p className="description">
+          A couple additional options to try. Once you feel like this fits then you can tell them that it ships.</p>
+    <p>Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?
       Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?
       Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?
       Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?
       </p>
-</div>
-        <p className="description">
-          A couple additional options to try. Once you feel like this fits then you can tell them that it ships.</p>
-          <div class="container">
-  <div class="row text-white text-left pb-3">
-    <div class="col bg-dark pt-3">
-      1 of 2
-    </div>
-    <div class="col bg-dark pt-3">
-      2 of 2
     </div>
   </div>
   <div class="row text-white text-left pb-3">
