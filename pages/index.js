@@ -26,8 +26,7 @@ export default function Home() {
           <div class="row flex-xl-nowrap">
           <main>
           <div class="container">
-  <div class="row text-white text-left pb-3">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -58,6 +57,7 @@ export default function Home() {
     </ul>
   </div>
 </nav>
+  <div class="row text-white text-left pb-3">
     <div class="col bg-dark pt-3">
     <Header title="Welcome Frank!"/>
     <h2 id="subtitle">Welcome to Thunderdome!</h2>
