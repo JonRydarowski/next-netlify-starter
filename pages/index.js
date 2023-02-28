@@ -21,22 +21,27 @@ export default function Home() {
     <body>
       <main>
       <div class="container-fluid">
-      <Header title="Welcome Frank - Nothing to see here." />
-      <p>Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?</p>
+      <Header title="Welcome Frank! Nothing to see here. Please send your best to Rose" />
+      <p>Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?
+      Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?
+      Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?
+      Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?
+      </p>
 </div>
         <p className="description">
           A couple additional options to try</p>
-          <div class="row text-white text-center pb-3">
-  <div class="col-4 bg-primary pt-3">
-    <p>Intro: Hi, I'm jsI18nTransformer<br />[col-4]</p>
+          <div class="row text-white text-right pb-3">
+  <div class="col-sm bg-primary pt-3">
+    <p>Intro: Hi, I'm jsI18nTransformer<br />12345</p>
   </div>
-  <div class="col-4 bg-dark pt-3">
-    <p>Past work and similar <br />[col-4]</p>
+  <div class="col-sm bg-dark pt-3">
+    <p>Past work and similar <br />abcde</p>
   </div>
-  <div class="col-4 bg-secondary pt-3">
-    <p>Upcoming projects and articles <br />[col-4]</p>
+  <div class="col-sm bg-secondary pt-3">
+    <p>Upcoming projects and articles <br />Not Yellow</p>
   </div>
 </div>
+
     <form name="Contact" method="POST" data-netlify="true">
     <p className="prom">Old school access request</p>
     <input type="hidden" name="form-name" value="Contact" />
