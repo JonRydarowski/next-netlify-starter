@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Test Me Test Me 1,2,3</title>
+        <title>Welcome home scott</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
       name="viewport"
@@ -19,11 +19,41 @@ export default function Home() {
     <script type="text/javascript" src="https://dsdsupport.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-dtzt95/b/3/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?jsI18nTransformer=migrated&locale=en-US&collectorId=04a58756"></script>
     </Head>
     <body>
+    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+  <div class="navbar-nav-scroll">
+    <ul class="navbar-nav bd-navbar-nav flex-row">
+      <li class="nav-item">
+        <a class="nav-link" href="/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="/docs/4.6/getting-started/introduction/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Documentation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/docs/4.6/examples/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Examples</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://icons.getbootstrap.com/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Icons');" target="_blank" rel="noopener">Icons</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://themes.getbootstrap.com/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Themes');" target="_blank" rel="noopener">Themes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://expo.getbootstrap.com/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Expo');" target="_blank" rel="noopener">Expo</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://blog.getbootstrap.com/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Blog');" target="_blank" rel="noopener">Blog</a>
+      </li>
+    </ul>
+  </div>
+
+  <a class="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="/docs/4.6/getting-started/download/">Download</a>
+</header>
       <main>
           <div class="container">
   <div class="row text-white text-left pb-3">
     <div class="col bg-dark pt-3">
-    <Header title="Welcome Frank! Nothing to see here. Please send your best to Rose" />
+    <Header title="Welcome Frank!"/>
+    <h2 id="subtitle">Welcome to Thunderdome!</h2>
         <p className="description">
           A couple additional options to try. Once you feel like this fits then you can tell them that it ships.</p>
     <p>Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?
@@ -33,14 +63,14 @@ export default function Home() {
       </p>
     </div>
   </div>
-  <div class="row text-white text-left pb-3">
-    <div class="col bg-secondary pt-3">
+  <div class="row text-black text-left pb-3">
+    <div class="col">
       Pretend like you love this please 
     </div>
-    <div class="col bg-secondary pt-3">
+    <div class="col">
       Did you see the side of the hamper? as if...
     </div>
-    <div class="col bg-secondary pt-3">
+    <div class="col">
       I pity the fool. I pity the shoe. I fool the shoe.
     </div>
   </div>
