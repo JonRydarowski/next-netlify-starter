@@ -22,7 +22,11 @@ export default function Home() {
       <div class="skippy overflow-hidden">
         <div class="container-xl"></div>
       </div>
-      <nav class="navbar navbar-light">
+        <div class="container-fluid">
+          <div class="row flex-xl-nowrap">
+          <main>
+          <div class="container">
+          <nav class="navbar navbar-light">
         <a class="navbar-brand" href="#">Karate</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,10 +46,6 @@ export default function Home() {
                     <span class="navbar-text"> Don't forget to floss</span>
                     </div>
         </nav>
-        <div class="container-fluid">
-          <div class="row flex-xl-nowrap">
-          <main>
-          <div class="container">
   <div class="row text-white text-left pb-3">
     <div class="col bg-dark pt-3">
     <Header title="Welcome Frank!"/>
