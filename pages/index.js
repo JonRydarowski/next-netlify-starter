@@ -29,19 +29,28 @@ export default function Home() {
       </p>
 </div>
         <p className="description">
-          A couple additional options to try</p>
-          <div class="row text-white text-right pb-3">
-  <div class="col-sm bg-primary pt-3">
-    <p>Intro: Hi, I'm jsI18nTransformer<br />12345</p>
+          A couple additional options to try. Once you feel like this fits then you can tell them that it ships.</p>
+          <div class="container">
+  <div class="row text-white text-left pb-3">
+    <div class="col bg-dark pt-3">
+      1 of 2
+    </div>
+    <div class="col bg-dark pt-3">
+      2 of 2
+    </div>
   </div>
-  <div class="col-sm bg-dark pt-3">
-    <p>Past work and similar <br />abcde</p>
-  </div>
-  <div class="col-sm bg-secondary pt-3">
-    <p>Upcoming projects and articles <br />Not Yellow</p>
+  <div class="row text-white text-left pb-3">
+    <div class="col bg-secondary pt-3">
+      Pretend like you love this please 
+    </div>
+    <div class="col bg-secondary pt-3">
+      Did you see the side of the hamper? as if...
+    </div>
+    <div class="col bg-secondary pt-3">
+      I pity the fool. I pity the shoe. I fool the shoe.
+    </div>
   </div>
 </div>
-
     <form name="Contact" method="POST" data-netlify="true">
     <p className="prom">Old school access request</p>
     <input type="hidden" name="form-name" value="Contact" />
