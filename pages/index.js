@@ -77,13 +77,31 @@ export default function Home() {
   </div>
   <div class="row text-black text-left pb-3">
     <div class="col">
-      Pretend like you love this please 
+    <div class="media">
+  <img src="..." class="align-self-start mr-3" alt="..."></img>
+  <div class="media-body">
+    <h5 class="mt-0">Top-aligned media</h5>
+    <p>tex text text</p>
+    </div>
+    </div>
     </div>
     <div class="col">
-      Did you see the side of the hamper? as if...
+    <div class="media">
+  <img src="..." class="align-self-start mr-3" alt="..."></img>
+  <div class="media-body">
+    <h5 class="mt-0">Top-aligned media</h5>
+    <p>next next next</p>
+    </div>
+    </div>
     </div>
     <div class="col">
-      I pity the fool. I pity the shoe. I fool the shoe.
+    <div class="media">
+  <img src="..." class="align-self-start mr-3" alt="..."></img>
+  <div class="media-body">
+    <h5 class="mt-0">Top-aligned media</h5>
+    <p>texas texas texas</p>
+    </div>
+    </div>
     </div>
   </div>
 </div>
