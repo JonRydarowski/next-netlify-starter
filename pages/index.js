@@ -70,37 +70,18 @@ export default function Home() {
           A couple additional options to try. Once you feel like this fits then you can tell them that it ships.</p>
     <p>Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?
       Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?
-      Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?
-      Hello, all and welcome. Please use the form below to access this site. If it appears as though the form does not work then it's likey the case that you should not be here. Pretty ominous huh?
       </p>
     </div>
   </div>
-  <div class="row text-black text-left pb-3">
-    <div class="col">
+  <div class="row justify-content-center text-black text-left pb-3">
+    <div class="col-2">
     <div class="media">
   <img src="/ava.png" class="img-fluid" alt="..."></img>
-  <div class="media-body">
-    <h5 class="mt-0">Top-aligned media</h5>
-    <p>tex text text</p>
     </div>
     </div>
-    </div>
-    <div class="col">
+    <div class="col-2">
     <div class="media">
   <img src="/max.png" class="img-fluid" alt="..."></img>
-  <div class="media-body">
-    <h5 class="mt-0">Top-aligned media</h5>
-    <p>next next next</p>
-    </div>
-    </div>
-    </div>
-    <div class="col">
-    <div class="media">
-  <img src="/ava.png" class="img-fluid" alt="..."></img>
-  <div class="media-body">
-    <h5 class="mt-0">Top-aligned media</h5>
-    <p>texas texas texas</p>
-    </div>
     </div>
     </div>
   </div>
