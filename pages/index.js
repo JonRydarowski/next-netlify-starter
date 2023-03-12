@@ -78,7 +78,7 @@ export default function Home() {
   <div class="row text-black text-left pb-3">
     <div class="col">
     <div class="media">
-  <img src="/ava.png" class="align-self-start mr-3" alt="..." width="10%" height="10%"></img>
+  <img src="/ava.png" class="img-fluid" alt="..."></img>
   <div class="media-body">
     <h5 class="mt-0">Top-aligned media</h5>
     <p>tex text text</p>
@@ -87,7 +87,7 @@ export default function Home() {
     </div>
     <div class="col">
     <div class="media">
-  <img src="/max.png" class="align-self-start mr-3" alt="..." width="10%" height="10%"></img>
+  <img src="/max.png" class="img-fluid" alt="..."></img>
   <div class="media-body">
     <h5 class="mt-0">Top-aligned media</h5>
     <p>next next next</p>
@@ -96,7 +96,7 @@ export default function Home() {
     </div>
     <div class="col">
     <div class="media">
-  <img src="/ava.png" class="align-self-start mr-3" alt="..." width="10%" height="10%"></img>
+  <img src="/ava.png" class="img-fluid" alt="..."></img>
   <div class="media-body">
     <h5 class="mt-0">Top-aligned media</h5>
     <p>texas texas texas</p>
