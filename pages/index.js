@@ -20,19 +20,15 @@ export default function Home() {
     </Head>
     <body>
       <div class="skippy overflow-hidden">
-        <div class="container-xl"></div>
+        <div class="container-xl">
+        </div>
       </div>
-        <div class="container-fluid">
-          <div class="row flex-xl-nowrap">
-          <main>
-          <div class="container-xl">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -61,7 +57,11 @@ export default function Home() {
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
-</nav>
+  </div>
+        <div class="container-fluid">
+          <div class="row flex-xl-nowrap">
+          <main>
+          <div class="container-xl">
   <div class="row text-white text-left pb-3">
     <div class="col bg-dark pt-3">
     <Header title="Welcome Frank!"/>
