@@ -4,32 +4,7 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <!DOCTYPE html>
-<html>
-  <head>
-    <title>Parcel Sandbox</title>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <style>
-        body {
-            width: 100%;
-            height: 100%;
-            background-image: url('https://assets.crawco.com/photos/_fullWidth/global-innovations-hero.jpg');
-            background-repeat: no-repeat;         
-}
-    </style>
-  </head>
-  <body>
-    <div></div>
-    <!-- 1. Load the webchat.js bundle via a script tag -->
-    <script src="https://github.com/Cognigy/WebchatWidget/releases/download/v3.0.0-beta.22/webchat.js"></script>
-    <script>
-        initWebchat(
-            "https://endpoint-app-us.cognigy.ai/cec175b2e3c3e163731fed0a18a9293e1d759b8e35f26994561e9b5046091d4c"
-        );
-    </script>
-  </body>
-</html>
-   /* <div className="container">
+  <div className="container">
       <Head>
         <title>Welcome home scott</title>
         <link rel="icon" href="/favicon.ico" />
@@ -43,7 +18,17 @@ export default function Home() {
     <script data-jsd-embedded data-key="bca31543-214d-40ea-84ec-28764127c22d" data-base-url="https://jsd-widget.atlassian.com" src="https://jsd-widget.atlassian.com/assets/embed.js"></script>
     <script type="text/javascript" src="https://dsdsupport.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-dtzt95/b/3/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?jsI18nTransformer=migrated&locale=en-US&collectorId=04a58756"></script> 
     </Head>
-    <body>
+   <body>
+    <div></div>
+    <!-- 1. Load the webchat.js bundle via a script tag -->
+    <script src="https://github.com/Cognigy/WebchatWidget/releases/download/v3.0.0-beta.22/webchat.js"></script>
+    <script>
+        initWebchat(
+            "https://endpoint-app-us.cognigy.ai/cec175b2e3c3e163731fed0a18a9293e1d759b8e35f26994561e9b5046091d4c"
+        );
+    </script>
+  </body>
+   /* <body>
       <div class="skippy overflow-hidden">
         <div class="container-xl">
         </div>
@@ -142,7 +127,7 @@ export default function Home() {
       </main>
       </div>
       </div>
-      </body>
+      </body>*/
       <Footer />
     </div>
   )*/
